@@ -1,9 +1,9 @@
 # The caffe module needs to be on the Python path;
 #  we'll add it here explicitly.
-caffe_root='/home/hs/software/caffe/'
+#caffe_root='/home/hs/software/caffe/'
 #os.chdir(caffe_root)
 import sys
-sys.path.insert(0,caffe_root+'python')
+#sys.path.insert(0,caffe_root+'python')
 import caffe
 import numpy as np
 from collections import OrderedDict
